@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness Tracker</title>
+   
+</head>
+<body>
+    <header>
+        <h1>Wellness Tracker</h1>
+    </header>
+
+    <main>
+        <div>
+            <h3 class="section-heading">Your journey to <span class="highlight">health</span> and happiness starts here.</h3>
+            <h4 class="section-heading">Here you'll get assistance with the following:</h4>
+        </div>
+
+        <div>
+            <ul>
+                <li>Water Intake</li>
+                <li>Hours of Sleep</li>
+                <li>Steps</li>
+                <li>Calorie Intake</li>
+                <li>Skincare</li>
+                <li>Workout and Yoga</li>
+                <li>Motivational Quotes</li>
+            </ul>
+        </div>
+
+       
+        <div class="form-section">
+            <h4 class="section-heading">Please fill out the form below:</h4>
+            <form>
+                <div>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter Name" required>
+                </div>
+
+                <div>
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age" name="age" placeholder="Enter Age" required>
+                </div>
+
+                <div>
+                    <label for="gender">Gender:</label><br>
+                    <select id="gender" name="gender" required>
+                        <option value="" disabled selected>Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter Email" required>
+                </div>
+
+                <div>
+                    <label for="feedback">Feedback:</label><br>
+                    <textarea id="feedback" name="feedback" placeholder="Please provide feedback." rows="4" required></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" class="submit-btn" value="Submit">
+                </div>
+            </form>
+        </div>
+
+        
+        <div class="tracker-section">
+            <h4 class="section-heading">Choose an Option:</h4>
+            <label for="tracker">Select a tracker category:</label><br>
+            <select name="choose" id="tracker" required>
+                <option value="" disabled selected>Select</option>
+                <option value="Water Intake">Water Intake</option>
+                <option value="Hours of Sleep">Hours of Sleep</option>
+                <option value="Steps">Steps</option>
+                <option value="Calorie Intake">Calorie Intake</option>
+                <option value="Skincare">Skincare</option>
+                <option value="Workout And Yoga">Workout And Yoga</option>
+                <option value="Motivational Quotes">Motivational Quotes</option>
+            </select>
+        </div>
+    </main>
+<footer>
+    <aside>
+        <p>Take the first step to a <span class="highlight">healthier</span> you today!</p>
+    </aside>
+        <p>&copy; 2024 Wellness Tracker | Khushi Mittal</p>
+</footer>
+    
+</body>
+</html>
+
+

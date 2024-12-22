@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hours of Sleep Tracker</title>
+</head>
+<body>
+    <header>
+        <h1>Track Your Hours of Sleep</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Your Sleep Tracker</h2>
+            <p>Track your sleep and make sure you're getting enough rest for a healthier lifestyle!</p>
+
+            <form>
+                <div>
+                    <label for="sleep-hours">How many hours did you sleep last night?</label>
+                    <input type="number" id="sleep-hours" name="sleep-hours" min="0" max="24" placeholder="Enter hours of sleep" required>
+                </div>
+                <div>
+                    <label for="sleep-quality">How was your sleep quality?</label><br>
+                    <input type="radio" id="good" name="sleep-quality" value="Good">
+                    <label for="good">Good</label><br>
+                    <input type="radio" id="average" name="sleep-quality" value="Average">
+                    <label for="average">Average</label><br>
+                    <input type="radio" id="poor" name="sleep-quality" value="Poor">
+                    <label for="poor">Poor</label><br>
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+
+        <section style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <div style="width: 48%; padding-right: 10px;">
+                <h2>Sleep Tips</h2>
+                <p>Watch this video for helpful tips on improving your sleep:</p>
+                <iframe width="700" height="315" src="https://www.youtube.com/embed/JAqzwymIDB4?si=adb5V0QrcCr9rKeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+            </div>
+            <div style="width: 1px; height: 400px;"></div>
+            <div style="width: 48%; padding-left: 10px;">
+                <h2>Additional Sleep Resources</h2>
+                <p>Here's a helpful sleep calculator to see how much rest you need based on your schedule:</p>
+                <iframe src="https://www.sleepfoundation.org/sleep-calculator" width="95%" height="300"></iframe>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Wellness Tracker | Khushi Mittal</p>
+    </footer>
+</body>
+</html>
+

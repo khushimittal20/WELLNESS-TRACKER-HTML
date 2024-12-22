@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Intake Tracker</title>
+</head>
+<body>
+    <header>
+        <h1>Water Intake Tracker</h1>
+        <p>Record your water intake and track your progress!</p>
+    </header>
+
+    <main>
+            <section>
+            <h2>Set Your Daily Water Goal</h2>
+            <label for="goal">Daily Target (ml):</label>
+            <input type="number" id="goal" placeholder="e.g., 3000 ml">
+            <button>Set Goal</button>
+        </section>
+        <br>
+            <section>
+            <h2>Record Water Intake</h2>
+            <form id="waterForm">
+                <label for="date">Date:</label>
+                <input type="date" id="date" required><br><br>
+
+                <label for="time">Time:</label>
+                <input type="time" id="time" required><br><br>
+
+                <label for="amount">Water Consumed (ml):</label>
+                <input type="number" id="amount" placeholder="Enter amount in ml" required><br><br>
+
+                <button type="button">Add Record</button>
+            </form>
+        </section>
+        <section>
+            <h2>Your Progress</h2>
+            <progress id="progressBar" value="0" max="3000"></progress>
+            <p id="progressText">0 ml out of 3000 ml</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Wellness Tracker | Khushi Mittal</p>
+    </footer>
+</body>
+</html>

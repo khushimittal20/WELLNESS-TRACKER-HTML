@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+<body>
+    <header>
+        <h1>We Value Your Feedback!</h1>
+        <p>Help us improve your wellness tracker experience.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Share Your Feedback</h2>
+            <form>                                  
+                <div>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <br>
+                <div>
+                    <label>Rate Us:</label><br>
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">5 (Excellent)</label><br>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">4 (Very Good)</label><br>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">3 (Good)</label><br>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">2 (Fair)</label><br>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">1 (Poor)</label>
+                </div>
+                <br>
+                <div>
+                    <label for="generalFeedback">Your Feedback:</label><br>
+                    <textarea id="generalFeedback" name="generalFeedback" rows="5" placeholder="Tell us what you think..." required></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="suggestions">Suggestions for Improvement:</label><br>
+                    <textarea id="suggestions" name="suggestions" rows="3" placeholder="Any ideas or suggestions?"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Submit Feedback">
+                </div>
+            </form>
+        </section>
+        <section>
+            <h2>Thank You!</h2>
+            <p>Your feedback helps us grow and serve you better.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Wellness Tracker | Khushi Mittal</p>
+    </footer>
+</body>
+</html>
